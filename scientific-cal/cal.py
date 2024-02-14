@@ -2,7 +2,6 @@
 
 from tkinter import*
 import math
-import parser
 import tkinter.messagebox
 
 root = Tk()
@@ -11,15 +10,8 @@ root.configure(background="Powder blue")
 root.resizable(width=False, height=False)
 root.geometry("480x624+20+20")
 
-"""root1=TK()
-root1.title("Conversion")
-root1.configure(background="Gray")
-root1.resizable(width=False, height=False)
-root1.geometry("944x624+20+20")
-"""
 calc = Frame(root)
 calc.grid()
-
 
 #=============Functions==================================================================================================
 
